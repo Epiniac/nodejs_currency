@@ -1,0 +1,25 @@
+{
+  "name": "main",
+  "version": "1.0.0",
+  "description": "to do",
+  "main": "btc.js",
+  "scripts": {
+    "dev": "clear && nodemon btc.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/Epiniac/nodejs_currency.git"
+  },
+  "author": "Jacques Chen",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Epiniac/nodejs_currency/issues"
+  },
+  "homepage": "https://github.com/Epiniac/nodejs_currency#readme",
+  "dependencies": {
+    "axios": "^1.6.8",
+    "body-parser": "^1.20.2",
+    "nodemon": "^3.1.0"
+  }
+}
